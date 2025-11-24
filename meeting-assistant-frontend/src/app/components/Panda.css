@@ -1,0 +1,106 @@
+.panda-container {
+  position: relative;
+  width: 120px;
+  margin: 0 auto 20px;
+}
+
+.ear {
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.left-ear {
+  left: 0;
+}
+.right-ear {
+  right: 0;
+}
+
+.face {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.face-success {
+  background: #b3ffb3;
+}
+
+.blush {
+  width: 20px;
+  height: 10px;
+  background: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+}
+
+.left-blush {
+  left: 15px;
+}
+.right-blush {
+  right: 15px;
+}
+
+.eye {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  overflow: hidden;
+}
+
+.left-eye {
+  left: 25px;
+}
+.right-eye {
+  right: 25px;
+}
+
+.eyeball {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+  left: 8px;
+  transition: all 0.2s;
+}
+
+.eyeball.look-up {
+  transform: translateY(-5px);
+}
+
+.eyeball.blink {
+  height: 0;
+}
+
+.nose .line {
+  width: 10px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.happy-mouth {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
